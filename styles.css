@@ -193,7 +193,6 @@
 
 .about-me-right {
     flex: 1; 
-    display: flex list-item;
     justify-content: center;
     align-items: center;
 }
