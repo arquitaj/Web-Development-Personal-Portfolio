@@ -38,6 +38,7 @@
     gap: 1.5rem;
     font-size: 0.875rem;
     font-weight: 500;
+    font-family: "Poppins", sans-serif;
     flex-wrap: wrap;
 }
 
@@ -70,31 +71,37 @@
 
 .intro-text span {
     font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
     color: #5a6473;
     font-weight: 500;
 }
 
 .intro-text h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #0b0b0b;
-    margin: 15px 0;
-    line-height: 1.2;
+  font-size: 3rem;
+  font-weight: 600; 
+  font-family: "Poppins", sans-serif;
+  color: #0b0b0b;
+  margin: 15px 0;
+  line-height: 1.2;
 }
 
 .intro-text h3 {
     font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
     color: #555c66;
     margin-bottom: 10px;
 }
 
 .intro-text p {
     font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
     color: #333;
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
 
 .hero-buttons {
     display: flex;
@@ -113,6 +120,7 @@
     padding: 10px 10px;
     font-size: 0.95rem;
     font-weight: 500;
+    font-family: "Poppins", sans-serif;
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
@@ -177,7 +185,7 @@
     background-position: center;   
     width: 100%;
     min-height: 100vh;             
-    padding: 20px;                 
+    padding: 20px;             
     display: flex;                 
     align-items: center;           
     justify-content: center;       
@@ -203,15 +211,20 @@
     }
 
 .about-me h2{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
     color: #FFB743;
     margin-bottom: 15px;
     text-align: left; 
 }
 
 .about-me p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
     line-height: 1.6;
+    padding: 0rem 15rem 0rem 0rem;   
     color: #333;
     text-align: left; 
 }
