@@ -274,14 +274,13 @@ nav{
 /* Row 2 */
 .footer__grid{
     display: grid;
-    grid-template-columns: 1.1fr 1fr ;
-    gap: 56px;
+    grid-template-columns: 1.1fr .8fr ;
+    
 }
 
 .footer__col-title{
     font-size: 1rem;
     font-weight: 600;
-    opacity: .95;
     margin-bottom: 14px;
     color:white
 }
@@ -291,10 +290,15 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    opacity: .95;
+
 }
 
-@media (max-width: 1024px){
+.footer__list a{
+    color: white;
+    transition: color .2s ease;
+}
+
+@media (max-width: 768px){
   .footer-section{ padding: 52px 8%; }
   .footer__top{ grid-template-columns: 1fr; }
   .footer__headline{ margin-top: 8px; }
