@@ -50,7 +50,9 @@ nav{
     justify-content: center;
 }
 .footer-section{
-    background-color: #1E3A8A;
+    background-color: #5f76b4;
+    color: white;
+    padding: 64px 15%;
     min-width: 100vh;
     min-height: 50vh;
 }
@@ -234,12 +236,6 @@ nav{
 /* =========================
    Footer
    ========================= */
-.footer-section{
-    background-color: #5f76b4;
-    color: #fff;
-    padding: 64px 15%;
-    min-height: auto;          
-}
 
 /* Row 1 */
 .footer__top{
