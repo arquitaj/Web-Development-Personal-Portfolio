@@ -46,13 +46,13 @@ nav{
 .white-section{ background-image: url('/images/background/whitebackground.png'); }
 .flex-section{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .footer-section{
     background-color: #1E3A8A;
     min-width: 100vh;
     min-height: 50vh;
+    padding: 5% 25%;
 }
 
 
@@ -69,6 +69,12 @@ nav{
 .list--feedback{ margin: 10% 0; }
 .author-review{ display: inline; }
 .active-card{ background-color: #BBD3EA; }
+.section--align--center{ align-items: normal; }
+.content--space-between{ justify-content: space-between; }
+.footer--right--content{ padding-left: 10%; }
+.footer--left--content{ padding-right: 17%; }
+.footer__tagline__bottom{ color: black; }
+.img--gray--icon{ filter: brightness(0) saturate(100%) invert(87%) sepia(0%) saturate(0%) hue-rotate(189deg) brightness(92%) contrast(87%); }
 .text-about-me{ 
     color: #FFB743; 
     margin-bottom: 2rem;
@@ -160,6 +166,15 @@ nav{
     height: 16px;
     margin-left: .5rem;
 }
+.h3--gray--text{
+    color: rgb(190, 187, 187);
+    margin-top: 3%;
+}
+.footer__col-title{
+    font-weight: bold;
+    color: white;
+}
+
 
 /* State */
 .btn--blue:hover { background-color: #2563eb; }
@@ -209,6 +224,16 @@ nav{
     text-align: center;     /* optional: center text */
     align-items: center;
   }
+    .footer--right--content{
+        padding-left: 0%;
+        margin-top: 3%;
+    }
+    .footer--left--content{
+        order: -1;
+        padding-right: 0%;
+        margin-top: 5%;
+    }
 }
 
 /*--------------------------------------------------------------------------------------------*/
+

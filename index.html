@@ -20,7 +20,7 @@
             </ul>
         </nav>
         <section id="home" class="blue-section top-section">
-            <div class="flex-section">
+            <div class="flex-section section--align--center">
                 <div class="intro-text">
                     <p class="text-greetings">Hello! This is</p>
                     <h1>John Paul Arquita</h1>
@@ -40,7 +40,7 @@
         </section>
         <!-- Author's Bio -->
         <section id="about-me" class="white-section top-section">
-            <div class="flex-section">
+            <div class="flex-section section--align--center">
                 <img class="side-pic" src="images/background/image.png" alt="About Me Icon">
                 <div class="about-me-section">
                     <h2 class="text-about-me">About Me</h2>
@@ -140,7 +140,7 @@
           <!-- Feedback from previous Clients -->
         <section id="feedbacks" class="white-section sub-section">
             <h2 class="text--blue">Clients Review</h2>
-            <div class="flex-section list--feedback">
+            <div class="flex-section list--feedback section--align--center">
                 <div class="card not-active-card">
                     <blockquote>
                         <p class="text--justify">"Lorem ipsum dolor sit amet... Purus augue in morbi."</p> <!-- modify content -->
@@ -180,9 +180,35 @@
           </div>
         </section>
     </body>
-    <footer id="contacts" class="blue-section footer-section">
-        <img src = images/icons/WeBuildWhite.png alt="WeBuildLogo" id="footer-logo" > 
-        <h2 id = "footer-quote-top">Get In Touch</h2>  
-        <p id = "footer-quote-bottom">Let's Build Something Together</p>
+    <footer id="contacts" class="footer-section">
+        <div class="flex-section content--space-between">
+            <img src="images/icons/WeBuildWhite.png" alt="WeBuild" >
+            <div>
+                <p>Get In Touch</p>
+                <h3 class="footer__tagline__bottom">Let's Build Something Together</h3>
+            </div>
+        </div>
+        <content class="flex-section content--space-between">
+            <div class="footer--right--content">
+                <h3 class="h3--gray--text footer__col-title">Contact us</h3>
+                <p><a class="h3--gray--text" href="mailto:webuild.mcl.mmdc@gmail.com">webuild.mcl.mmdc@gmail.com</a></p>
+                <p class="h3--gray--text">1-855-854-1438</p>
+                <p class="h3--gray--text">123 Davao, Cebu, Manila, Philippines</p>
+                <ul class="navigation-links">
+                    <li><a href=""><img class="socialMedia-icon img--gray--icon" src="images/icons/facebook.png" alt="Facebook Icon"></a></li>
+                    <li><a href=""><img class="socialMedia-icon img--gray--icon" src="images/icons/linkedin.png" alt="LinkedIn Icon"></a></li>
+                    <li><a href=""><img class="socialMedia-icon img--gray--icon" src="images/icons/x.png" alt="Twitter Icon"></a></li>
+                    <li><a href=""><img class="socialMedia-icon img--gray--icon" src="images/icons/instagram.png" alt="Instagram Icon"></a></li>
+                </ul>
+            </div>
+            <div class="footer--left--content">
+                <h3 class="footer__col-title">Services</h3>
+                <p class="h3--gray--text">Web App Development</p>
+                <p class="h3--gray--text">API Integration</p>
+                <p class="h3--gray--text">Database Integration</p>
+                <p class="h3--gray--text">UI/UX Implementation</p>
+                <p class="h3--gray--text">Deployment &amp; Maintenance</p>
+            </div>
+        </content>
     </footer>
 </html>
